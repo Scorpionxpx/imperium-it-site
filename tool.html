@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Les outils numériques proposés par Imperium IT.">
+  <title>Imperium IT | Outils</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .tool-hero{position:relative;overflow:hidden;background:linear-gradient(125deg,#071226,#0b2b66);color:#fff;padding:112px 0 92px}.tool-hero:after{content:"";position:absolute;right:8%;bottom:-110px;width:280px;height:280px;border:1px solid rgba(103,232,249,.25);transform:rotate(45deg)}.tool-hero h1{position:relative;z-index:1;max-width:700px}.tool-hero p:not(.eyebrow){position:relative;z-index:1;max-width:580px;color:#d0dcf1;margin:24px 0 0;font-size:17px}.tools-section{min-height:470px}.tools-heading{display:flex;justify-content:space-between;align-items:end;gap:40px;margin-bottom:42px}.tools-heading h2{max-width:650px}.tools-count{margin:0 0 7px;color:var(--muted);font-size:12px;font-weight:700;white-space:nowrap}.tool-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.tool-card{position:relative;display:flex;flex-direction:column;min-height:326px;padding:30px;background:#fff;border:1px solid var(--line);box-shadow:0 14px 34px rgba(16,26,46,.06);transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}.tool-card:before{content:"";display:block;width:42px;height:3px;margin-bottom:27px;background:var(--blue)}.tool-card:hover{transform:translateY(-5px);border-color:#b9cbea;box-shadow:0 20px 38px rgba(16,26,46,.11)}.tool-card h3{font-size:24px;letter-spacing:-.03em;margin:0 0 14px}.tool-card p:not(.tool-type){color:var(--muted);font-size:14px;line-height:1.7;margin:0 0 28px}.tool-card .button{width:100%;margin-top:auto;text-align:center}.tool-type{color:var(--blue);font-size:10px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;margin:0 0 13px}.tool-number{position:absolute;top:29px;right:28px;color:#cbd6e5;font:700 13px 'Space Grotesk'}.footer{padding:34px 0;border-top:1px solid var(--line);color:var(--muted);font-size:12px}.footer p{margin:0}@media (max-width:700px){.tool-hero{padding:80px 0 64px}.tools-heading{display:block}.tools-count{margin-top:18px}.tool-grid{grid-template-columns:1fr}.tool-card{min-height:290px}}
+  </style>
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a class="brand" href="index.html" aria-label="Imperium IT - Accueil">
+        <img class="brand-logo" src="Icon_ESN-Imperium.png" alt="Logo Imperium IT">
+        <span>IMPERIUM <b>IT</b></span>
+      </a>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="index.html#expertise">Expertise</a>
+        <a href="index.html#solutions">Solutions</a>
+        <a href="index.html#methode">Méthode</a>
+        <a href="tool.html" aria-current="page">Outils</a>
+        <a class="button" href="index.html#contact">Nous contacter</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="tool-hero">
+      <div class="container">
+        <p class="eyebrow">Ressources Imperium IT</p>
+        <h1>Nos <em>outils</em></h1>
+        <p>Retrouvez ici les outils et ressources utiles à votre environnement numérique.</p>
+      </div>
+    </section>
+
+    <section class="section container tools-section">
+      <div class="tools-heading">
+        <p class="eyebrow">Accès rapides</p>
+        <h2>Les outils à votre disposition.</h2>
+        <p class="tools-count">03 ressources disponibles</p>
+      </div>
+      <div class="tool-grid">
+        <article class="tool-card">
+          <span class="tool-number">01</span>
+          <p class="tool-type">Téléassistance</p>
+          <h3>TeamViewer QuickSupport</h3>
+          <p>Outil de télé-assistance instantanée pour permettre à un technicien d'intervenir à distance.</p>
+          <a class="button" href="https://download.teamviewer.com/download/TeamViewerQS_x64.exe">Télécharger TeamViewer</a>
+        </article>
+        <article class="tool-card">
+          <span class="tool-number">02</span>
+          <p class="tool-type">Téléassistance</p>
+          <h3>Splashtop SOS</h3>
+          <p>Accédez à la page officielle de téléchargement du logiciel de télé-assistance Splashtop SOS.</p>
+          <a class="button" href="https://sos.splashtop.com/fr/sos-download" target="_blank" rel="noopener noreferrer">Télécharger Splashtop SOS</a>
+        </article>
+        <article class="tool-card">
+          <span class="tool-number">03</span>
+          <p class="tool-type">Réseau</p>
+          <h3>Advanced IP Scanner</h3>
+          <p>Analysez rapidement les appareils et les adresses IP présents sur un réseau local.</p>
+          <a class="button" href="https://download.advanced-ip-scanner.com/download/files/Advanced_IP_Scanner_2.5.4594.1.exe">Télécharger Advanced IP Scanner</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Imperium IT. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

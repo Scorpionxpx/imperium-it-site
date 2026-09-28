@@ -12,4 +12,4 @@ Site statique responsive réalisé à partir du support de présentation Imperiu
 
 Le site sera accessible sur : `https://scorpionxpx.github.io/imperium-it-site/`
 
-Le formulaire est une démonstration front-end : raccordez-le à un service de traitement de formulaires pour recevoir les demandes.
+Le formulaire ouvre le logiciel de messagerie configuré sur le poste via `mailto:`, avec les informations saisies préremplies. Le poste doit disposer d'un client mail associé aux liens `mailto:`.
